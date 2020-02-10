@@ -1,7 +1,7 @@
 public class Animal {
 
-    int age;
-    int weight;
+    private int age;
+    private int weight;
 
     public Animal() {
     }
@@ -28,10 +28,10 @@ public class Animal {
     }
 
     public void eat() {
-        System.out.println("I'm full~");
+        System.out.println("饱餐一顿");
     }
 
     public void sleep() {
-        System.out.println("It's time to sleep~");
+        System.out.println("心满意足之后就睡觉了");
     }
 }
