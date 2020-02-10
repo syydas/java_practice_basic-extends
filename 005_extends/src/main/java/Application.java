@@ -8,5 +8,11 @@ public class Application {
      */
     public static void main(String[] args) {
 
+        Eagle eagle = new Eagle(4, 5, 20, "兔子");
+        System.out.println("一只" +eagle.getAge()+"岁的老鹰，体重"+eagle.getWeight()+"kg");
+        eagle.fly();
+        eagle.predatorWay();
+        eagle.eat();
+        eagle.sleep();
     }
 }
